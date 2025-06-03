@@ -13,7 +13,21 @@
 int binarySearch(int *arr, int len, int val)
 {		
 	// your code here
+int low, high, mid;
+	mid=(low-high)/2;
+	if(val == mid){
+		return 1;
+	}
+	while(val!=mid){
+		if(val<mid){
+			low=mid+1;
+				}
+		else{
+			high=mid-1;
+		}
+		
 }
+return 0;
 
 int main()
 {
